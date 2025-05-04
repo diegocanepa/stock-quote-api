@@ -17,7 +17,7 @@ Fetches current market prices for one or more financial instruments.
 ##### 🔹 Example Request:
 
 ```bash
-curl "http://localhost:5000/api/v1/quotes?symbols=GGAL.BA,YPFD.BA,TSLA"
+curl "https://stock-quote-api.vercel.app/api/v1/quotes?symbols=GGAL.BA,YPFD.BA,TSLA"
 ```
 
 ##### 🔹 Example Response (some symbols valid):
@@ -101,3 +101,17 @@ docker build -t stock-quote-api .
 ```bash
 docker run -p 5000:5000 stock-quote-api
 ```
+
+---
+
+### 🌐 Deployed on Vercel
+
+You can access the service live on Vercel at:
+
+```bash
+https://stock-quote-api.vercel.app
+```
+
+---
+
+Let me know if you need further changes!

@@ -6,7 +6,7 @@ A lightweight REST API built with **Flask** that allows you to fetch real-time q
 
 ### 🚀 Available Endpoints
 
-#### `GET /quotes`
+#### `GET api/v1/quotes`
 
 Fetches current market prices for one or more financial instruments.
 
@@ -17,7 +17,7 @@ Fetches current market prices for one or more financial instruments.
 ##### 🔹 Example Request:
 
 ```bash
-curl "http://localhost:5000/quotes?symbols=GGAL.BA,YPFD.BA,TSLA"
+curl "http://localhost:5000/api/v1/quotes?symbols=GGAL.BA,YPFD.BA,TSLA"
 ```
 
 ##### 🔹 Example Response (some symbols valid):
